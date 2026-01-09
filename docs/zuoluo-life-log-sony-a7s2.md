@@ -13,7 +13,7 @@ tags:
 
 要干正事，入了大法神教，花了血本入了索尼的[A7S2](https://s.taobao.com/search?q=a7s2&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20160610&app=detailproduct&through=1)，蔡司的[FE35mm F2.8光圈镜头](https://s.taobao.com/search?q=fe35+2.8&imgfile=&ie=utf8)和一系列的设备，端午假期第一天，带着妹纸去南京西路拍一下街拍。
 
-刚好也是一年前，用[理光GR](https://luolei.org/tag/ricohgr/)在上海拍了一个[遇见:外滩周末小逛](https://luolei.org/meet-shanghai-july/)，今天，这部是理光GR5倍价格的A7S2有什么样表现，这篇博文，作为A7S2的开门分享，也当作是一个作业。
+刚好也是一年前，用[理光GR](https://v.i8k.tv/tag/ricohgr/)在上海拍了一个[遇见:外滩周末小逛](https://v.i8k.tv/meet-shanghai-july/)，今天，这部是理光GR5倍价格的A7S2有什么样表现，这篇博文，作为A7S2的开门分享，也当作是一个作业。
 
 ![](https://c2.is26.com/blog/2016/06/sony/sh1.JPG)
 

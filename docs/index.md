@@ -1,7 +1,7 @@
 ---
-date: '2013-06-03'
+date: '2026-01-03'
 layout: home
-title: 罗磊的独立博客
+title: 字幕工具导航
 index: true
 hide: true
 ---

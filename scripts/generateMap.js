@@ -12,7 +12,7 @@ const DOCS_DIR = path.join(__dirname, '..', 'docs');
 const ROOT_DIR = path.join(__dirname, '..');  // 项目根目录
 const DEFAULT_FILE = path.join(ROOT_DIR, 'DEFAULT.md');
 const README_FILE = path.join(ROOT_DIR, 'README.md');
-const BLOG_URL = 'https://luolei.org';
+const BLOG_URL = 'https://v.i8k.tv';
 
 console.log('当前脚本路径:', __filename);
 console.log('docs 目录路径:', DOCS_DIR);

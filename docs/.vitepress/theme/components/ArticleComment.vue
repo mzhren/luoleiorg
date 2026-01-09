@@ -27,7 +27,7 @@
 
   function getArtalkConfByPage(page: any) {
     // 这里待处理成配置
-    const baseDomain = "https://luolei.org";
+    const baseDomain = "https://v.i8k.tv";
     return {
       pageKey: `${baseDomain}${location.pathname}/`,
       pageTitle: page.title,

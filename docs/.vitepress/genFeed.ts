@@ -10,7 +10,7 @@ import {
 // 限制只抓取最新15篇文章,防止rss文件过大
 const MAX_FEED_ITEMS = 15;
 const id: string = "luolei";
-const baseUrl: string = `https://luolei.org`;
+const baseUrl: string = `https://v.i8k.tv`;
 type RssGenerator = (config: SiteConfig) => Promise<void>;
 export const rss: RssGenerator = async (config) => {
   const feed: Feed = new Feed({

@@ -5,15 +5,15 @@ import svgLoader from "vite-svg-loader";
 import markdownImagePlugin from "./markdownPlugin";
 
 const RSS: RSSOptions = {
-  title: "罗磊的独立博客",
-  baseUrl: `https://luolei.org`,
-  copyright: "Copyright (c) 罗磊的独立博客",
+  title: "视频工具箱 - 为视频工作者和Vlog UP主精选的专业工具集",
+  baseUrl: `https://v.i8k.tv`,
+  copyright: "Copyright (c) 视频工具箱",
   filename: "rss.xml",
 };
 
 export default defineConfig({
-  title: "罗磊的独立博客",
-  description: "luolei.org",
+  title: "视频工具箱",
+  description: "涵盖前期策划、拍摄录制、剪辑后期、素材资源、发布运营等视频创作全流程的工具导航网站，帮助视频创作者提升效率",
   cleanUrls: true,
   appearance: false,
   ignoreDeadLinks: true,
@@ -36,7 +36,7 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "ZUOLUOTV,科技,旅行,生活方式,程序员,互联网,自媒体,摄影师,编程,前端,前端工程师,罗磊,独立博客,LUOLEI,Vlog,YouTuber",
+          "视频工具,剪辑软件,视频创作,Vlog,UP主,视频制作,视频编辑",
       },
     ],
     [
@@ -44,7 +44,7 @@ export default defineConfig({
       {
         name: "description",
         content:
-          "我是罗磊，来自中国深圳，程序员，前端工程师，视频节目 ZUOLUOTV 制作人，旅行摄影玩家和内容创作者，中文 Vlog 拍摄者，内容主题涉及科技、数码、互联网、摄影、旅行、生活方式等领域。",
+          "涵盖前期策划、拍摄录制、剪辑后期、素材资源、发布运营等视频创作全流程的工具导航网站，帮助视频创作者提升效率",
       },
     ],
     [
@@ -62,8 +62,8 @@ export default defineConfig({
   ],
   transformHead: ({ pageData }) => {
     const head: HeadConfig[] = [];
-    const title = pageData?.frontmatter?.title || "罗磊的独立博客";
-    const description = pageData?.frontmatter?.description || "罗磊的独立博客";
+    const title = pageData?.frontmatter?.title || "视频创作工具导航 - 为视频工作者和Vlog UP主精选的专业工具集";
+    const description = pageData?.frontmatter?.description || "涵盖前期策划、拍摄录制、剪辑后期、素材资源、发布运营等视频创作全流程的工具导航网站，帮助视频创作者提升效率";
     const cover = pageData?.frontmatter?.cover || "/logo.png";
 
     head.push(["meta", { property: "og:title", content: title }]);
@@ -83,7 +83,7 @@ export default defineConfig({
           { text: "哔哩哔哩", link: "https://zuoluo.tv/bilibili" },
         ],
       },
-      { text: "RSS", link: "https://luolei.org/rss" },
+      { text: "RSS", link: "https://v.i8k.tv/rss" },
       { text: "关于", link: "https://github.com/foru17" },
     ],
     socialLinks: [
@@ -95,7 +95,7 @@ export default defineConfig({
     lastUpdatedText: "最后更新时间",
     footer: {
       message: `Powered By <a href="https://zuoluo.tv/vitepress">VitePress</a>`,
-      copyright: `Copyright 2025 | <a href="https://luolei.org/">LUOLEI.ORG</a><br/>
+      copyright: `Copyright 2025 | <a href="https://v.i8k.tv/">LUOLEI.ORG</a><br/>
       <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow" class="d-none d-lg-inline-block">粤ICP备14004235号</a>
       `,
     },

@@ -12,7 +12,7 @@
   const categories = computed(() => frontmatter.value.categories);
 
   const authorLink = computed(() => {
-    return `https://luolei.org`;
+    return `https://v.i8k.tv`;
   });
 
   const articleGithubLink = computed(() => {
@@ -20,7 +20,7 @@
   });
 
   const articleLink = computed(() => {
-    return `https://luolei.org${route.path}`;
+    return `https://v.i8k.tv${route.path}`;
   });
 
   onMounted(() => {});
